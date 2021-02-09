@@ -1,13 +1,8 @@
-/// Flutter code sample for TextField
-
-// This sample shows how to get a value from a TextField via the [onSubmitted]
-// callback.
 
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
-/// This is the main application widget.
 class MyApp extends StatelessWidget {
 
   static const String _title = 'Flutter Code Sample';
@@ -22,7 +17,6 @@ class MyApp extends StatelessWidget {
 
 }
 
-/// This is the private State class that goes with MyStatefulWidget.
 class Text extends StatelessWidget{
 
   Widget build(BuildContext context) {
